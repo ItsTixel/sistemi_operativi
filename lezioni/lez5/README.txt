@@ -1,3 +1,11 @@
+GUARDA IN QUESTO TXT L'ORDINE PER ESEGUIRE I FILE:
+
+Per vedere che cos'è una system call -> esempio_execve -> exec1_ERRATO -> exec2_CORRETTO
+
+I programmi exec1 SCAMBIANO un processo con un altro. Per lanciare PIÙ PROCESSI CONTEMPORANEAMENTE bisogna utilizzare fork.
+
+
+
 Come finisce un processo?
 Noi vediamo quando facciamo return 0, ma come detto, i processi o vengono uccisi o si suicidono.
 La system call _exit lo fa:
